@@ -197,7 +197,7 @@ const placeBidWithExpiration = async () => {
       '0x709944a48cAf83535e43471680fDA4905FB3920a',
    //   '<liquidationEventContractAddress>',
     ],
-   // [awardedTransaction, '<liquidationEventEncodedTransaction>'],
+   // [awardedTransaction, '<liquidationEventEncodedTransaction>'], // comments are confusing
     [awardedTransaction],
    // [parseEther('0.01'), '<liquidationEventValue>'],
     [parseEther('0.01')],
